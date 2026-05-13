@@ -99,39 +99,5 @@ cd "gym-web 1"
 npm run dev
 ```
 
-Open the frontend in your browser at the Vite URL shown in the terminal, typically `http://localhost:5173`.
 
----
 
-## 📡 API Endpoints
-
-### Member Endpoints
-- `GET /api/members` — Return all members
-- `GET /api/members/:id` — Return a member by ID
-- `POST /api/members` — Create a new member
-- `PUT /api/members/:id` — Update a member
-- `DELETE /api/members/:id` — Delete a member
-- `GET /api/members/dashboard/view` — View raw JSON member storage
-
-### Additional Endpoints
-- `GET /api/classes` — Mock classes data
-- `GET /api/pricing` — Mock pricing data
-- `GET /api/health` — Health check
-
----
-
-## 📝 Notes
-
-- Backend member data is stored in `backend/data/members.json`.
-- No external database is required for the current implementation.
-- For production, you can replace file-based storage with MongoDB or another database.
-
----
-
-## 💡 Next Improvements
-
-If you want, I can also add:
-- a polished project description and screenshots
-- a `LICENSE` file
-- deployment instructions for GitHub Pages, Vercel, or Netlify
-- CI workflow for GitHub Actions
